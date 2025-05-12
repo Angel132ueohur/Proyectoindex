@@ -1,0 +1,131 @@
+/* Estilo general de la página */
+body {
+  background-color: #f4f0ff; /* fondo morado muy claro */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Estilo para los títulos */
+h1 {
+  color: #4b0082;
+  margin-bottom: 20px;
+}
+
+/* Estilo para los subtítulos */
+h3 {
+  color: #4b0082;
+  margin-top: 20px;
+}
+
+/* Estilo para los párrafos */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Alineación personalizada para los párrafos y otros elementos */
+.left-align {
+  text-align: left;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.right-align {
+  text-align: right;
+}
+
+/* Estilo para el texto del marquee */
+marquee {
+  font-weight: bold;
+  font-size: 20px;
+  color: #4b0082;
+  background-color: #e0d3ff;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Estilo para los botones/enlaces */
+a {
+  display: inline-block;
+  margin: 15px;
+  padding: 12px 24px;
+  background-color: #4b0082; /* morado oscuro */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+  background-color: #9370db; /* morado más claro */
+  transform: scale(1.05);
+}
+
+/* Estilo de la tabla */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de las celdas */
+td {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  color: #4b0082;
+  background-color: #f9f9f9;
+}
+
+/* Estilo para las filas de la tabla */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tr:hover {
+  background-color: #e0d3ff; /* Color al pasar el mouse */
+}
+
+/* Estilos para tamaños de texto */
+.small-text {
+  font-size: 12px; /* Tamaño de fuente 1 */
+}
+
+.medium-text {
+  font-size: 16px; /* Tamaño de fuente 2 */
+}
+
+.large-text {
+  font-size: 24px; /* Tamaño de fuente 4 */
+}
+
+.bigger-text {
+  font-size: 28px; /* Tamaño de fuente +1 */
+}
+
+.custom-text {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #FFFF00; /* Color amarillo */
+}
+
+/* Estilo para el alineado de texto usando div */
+div {
+  font-size: 18px; /* Tamaño estándar para el texto dentro de div */
+  line-height: 1.5;
+}
